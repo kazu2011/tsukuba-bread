@@ -90,9 +90,28 @@ header a:hover{
   position: relative;
 }
 
+.main-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.featured {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+
 .icon p {
   position: absolute;
   top: 90px;
   width: 100%;
-  color: white;
+  color: black;
+  font-size: 20px;
+}
+
+.txt-contents {
+  margin-top: 50px;
+  width: 80%;
+  display: inline-block;
 }
