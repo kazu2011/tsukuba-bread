@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+
+header header-logo {
+  float: left;
+
+}
+
+header a {
+  float: right;
+  display: block;
+  color: white;
+  text-decoration: none;
+  line-height: 65px;
+  margin-right: 20px;
+}
+
+header a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+  background-image: url("img/top-img.jpg");
+  background-size: cover;
+  height: 1000px;
+  margin-top: 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  color: black;
+}
+
+.top-wrapper h1 {
+  margin-top:200px;
+  font-size: 80px;
+}
+
+.top-wrapper h2 {
+  margin-top:50px;
+  font-size: 30px;
+}
+
+.description {
+  margin-top: 40px;
+}
+
+.sns {
+  margin-top: 40px;
+}
+
+.membership {
+  background-color: #ff8c00;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #ff8c00;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.twitter {
+  margin-right: 15px;
+}
+
+.fab{
+  margin-right: 5px;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
