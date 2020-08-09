@@ -115,3 +115,102 @@ header a:hover{
   width: 80%;
   display: inline-block;
 }
+
+.second-wrapper{
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 200px;
+}
+
+.second-wrapper h1 {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+
+.first-bread {
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  width: 1000px;
+  height: 200px;
+  border: 1px solid rgba(0,0,0,0.4);
+  position: absolute;
+  box-shadow: 5px 5px rgba(169,169,169,1);
+}
+
+.first-bread:active {
+  box-shadow: none;
+}
+
+
+.first-bread img{
+  border-radius: 50%;
+  float: left;
+  height: 70%;
+  width: 13%;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.second-bread {
+  margin-top: 300px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  width: 1000px;
+  height: 200px;
+  border: 1px solid rgba(0,0,0,0.4);
+  position: absolute;
+  box-shadow: 5px 5px rgba(169,169,169,1);
+}
+
+.second-bread:active {
+  box-shadow: none;
+}
+
+.second-bread img{
+  border-radius: 50%;
+  float: left;
+  height: 70%;
+  width: 13%;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.third-bread {
+  margin-top: 100px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  width: 1000px;
+  height: 200px;
+  border: 1px solid rgba(0,0,0,0.4);
+  position: absolute;
+  box-shadow: 5px 5px rgba(169,169,169,1);
+}
+
+.third-bread:active {
+  box-shadow: none;
+}
+
+.third-bread img{
+  border-radius: 50%;
+  float: left;
+  height: 70%;
+  width: 13%;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.explanation {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.bread-title {
+  font-size: 150%
+}
+
+
