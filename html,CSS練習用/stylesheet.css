@@ -1,7 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  margin-bottom: 0px;
+  height: 100%;
 }
 
 header {
@@ -32,11 +38,13 @@ header a:hover{
 }
 
 .top-wrapper {
-  background-image: url("https://kazu2011.github.io/tsukuba-bread/html,CSS練習用/img/top-img.jpg");
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  background-image: url("img/top-img.jpg");
   background-size: cover;
-  height: 1000px;
   margin-top: 0px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 50px 0px;
   text-align: center;
   color: black;
 }
@@ -78,6 +86,11 @@ header a:hover{
   text-decoration: none;
 }
 
+.btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .twitter {
   margin-right: 15px;
 }
@@ -91,6 +104,8 @@ header a:hover{
 }
 
 .main-wrapper {
+  margin: 0 auto;
+  width: 80%;
   text-align: center;
   margin-top: 50px;
 }
@@ -114,26 +129,36 @@ header a:hover{
   margin-top: 50px;
   width: 80%;
   display: inline-block;
+  margin-bottom: 100px;
 }
+
+/*.first-bread {
+  float: left;
+}
+*/
 
 .second-wrapper{
   margin: 0 auto;
   width: 80%;
-  padding-bottom: 200px;
+  height: 1400px;
+  padding-bottom: 30px;
+}
+
+.second-wrapper a {
+  display: inline-block;
+
 }
 
 .second-wrapper h1 {
   text-align: center;
-  margin-bottom: 50px;
-
+  padding-bottom: 40px;
 }
 
 
 .first-bread {
-  margin-right: 0 auto;
-  margin-left: 0 auto;
-  width: 1000px;
-  height: 200px;
+  margin: 0 auto;
+  width: 80%;
+  height: 180px;
   border: 1px solid rgba(0,0,0,0.4);
   position: absolute;
   box-shadow: 5px 5px rgba(169,169,169,1);
@@ -145,21 +170,27 @@ header a:hover{
 
 
 .first-bread img{
+  display: inline-block;
   border-radius: 50%;
   float: left;
-  height: 70%;
-  width: 13%;
+  height: 130px;
+  width: 130px;
   position: relative;
   top: 30px;
-  left: 30px;
+  left: 30px
+
+}
+
+.clear {
+  clear: left;
 }
 
 .second-bread {
   margin-top: 300px;
   margin-right: 0 auto;
   margin-left: 0 auto;
-  width: 1000px;
-  height: 200px;
+  width: 80%;
+  height: 180px;
   border: 1px solid rgba(0,0,0,0.4);
   position: absolute;
   box-shadow: 5px 5px rgba(169,169,169,1);
@@ -170,21 +201,22 @@ header a:hover{
 }
 
 .second-bread img{
+  display: inline-block;
   border-radius: 50%;
   float: left;
-  height: 70%;
-  width: 13%;
+  height: 130px;
+  width: 130px;
   position: relative;
   top: 30px;
-  left: 30px;
+  left: 30px
 }
 
 .third-bread {
-  margin-top: 100px;
+  margin-top: 600px;
   margin-right: 0 auto;
   margin-left: 0 auto;
-  width: 1000px;
-  height: 200px;
+  width: 80%;
+  height: 180px;
   border: 1px solid rgba(0,0,0,0.4);
   position: absolute;
   box-shadow: 5px 5px rgba(169,169,169,1);
@@ -195,22 +227,106 @@ header a:hover{
 }
 
 .third-bread img{
+  display: inline-block;
   border-radius: 50%;
   float: left;
-  height: 70%;
-  width: 13%;
+  height: 130px;
+  width: 130px;
   position: relative;
   top: 30px;
-  left: 30px;
+  left: 30px
 }
 
 .explanation {
   display: inline-block;
   margin-left: 10%;
+  text-decoration: none;
+  color: black;
+  width: 70%;
+  font-size: 15px;
 }
+
+
 
 .bread-title {
+  width: 50%;
   font-size: 150%
+  text-decoration: none;
+  color: black;
+}
+
+.contact-wrapper {
+  margin-top: 100px;
+  margin: 0 auto;
+  width: 90%;
+  height: 800px;
+  margin-bottom: 20px
 }
 
 
+.contact-wrapper h1 {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #f4a460;
+  display: block;
+}
+
+input,textarea {
+  margin-bottom: 5px;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.submit-btn {
+  box-shadow: 0 5px rgba(169,169,169,1);
+
+}
+
+.submit {
+  position: relative;
+}
+
+.submit-btn:active {
+  box-shadow: none;
+  position: absolute;
+  top:5px;
+}
+
+.right-contact {
+  float: right;
+  width: 50%;
+}
+
+.left-contact {
+  width: 50%;
+    float: left;
+}
+
+footer {
+  height:100px;
+  background-color: #ff8c00;
+  margin-bottom: 0px;
+  padding-bottom: 0:
+}
+
+.footer-right a {
+  float: right;
+  margin-right: 30px;
+  display: block;
+  line-height: 100px;
+  color: white;
+}
+
+.footer-right a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.footer-left {
+  float: left;
+}
